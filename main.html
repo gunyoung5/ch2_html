@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="main.css">
+        <meta charset="UTF-8">
+        <title>Main</title>
+    </head>
+    <body>
+        <h1>Tennis market</h1>
+        <div id="txt_welcome">Welcomt to tennis market! <br>
+            enjoy your shopping.
+            <br>
+            <br>
+            <div>
+            <a href="./orderlist">order list</a>
+            </div>
+        </div>
+        <div class="main_container">
+            <div class="card">
+                <img class="card_img" src = "./img/redRacket.png">
+                <p class="card_title">Red Racket</p>
+                <input class="card_button" type="button" value="order" onclick="location.href='/order?productId=1'">
+            </div>
+            <div class="card">
+                <img class="card_img" src = "./img/blueRacket.png">
+                <p class="card_title">Blue Racket</p>
+                <input class="card_button" type="button" value="order" onclick="alert(2)">
+            </div>
+            <div class="card">
+                <img class="card_img" src = "./img/blackRacket.png">
+                <p class="card_title">Black Racket</p>
+                <input class="card_button" type="button" value="order" onclick="alert(3)">
+            </div>
+        </div>
+    </body>
+</html>
